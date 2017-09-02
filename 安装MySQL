@@ -10,3 +10,7 @@ mysql -h localhost -u root -p，then input password.
 Start mysql server
 sudo /usr/local/mysql/support-files/mysql.server start/stop/restart/
 
+alter initilal password:
+set password = password('xxxxxx');
+alter user 'root'@'localhost' password expire never;
+flush privileges;
