@@ -1,0 +1,12 @@
+MacOS
+Terminal user:
+open .bash_profile
+alias mysql=/usr/local/mysql/bin/mysql
+alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+source .bash_profile
+
+mysql -h localhost -u root -p，then input password.
+
+Start mysql server
+sudo /usr/local/mysql/support-files/mysql.server start/stop/restart/
+
